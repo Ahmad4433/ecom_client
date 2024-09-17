@@ -82,6 +82,8 @@ const FileSelect = ({
           style={{ display: "none" }}
           onChange={fileSelectChange}
           ref={fileRef}
+      
+          
         />
       </div>
       <div className="file_preview_container">

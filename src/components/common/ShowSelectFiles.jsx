@@ -11,9 +11,6 @@ const ShowSelectFiles = ({ files, setFiles, showFeatue }) => {
       feature: i === index, // Set `feature: true` only for the selected index
     }));
 
-  
-
-
     const prevFeature = updatedFiles.find((item) => {
       return item.feature === true;
     });
@@ -30,6 +27,7 @@ const ShowSelectFiles = ({ files, setFiles, showFeatue }) => {
   const fileDeleteHandler = (index) => {
     const prevFiles = [...files];
     prevFiles.splice(index, 1);
+
     setFiles(prevFiles);
   };
 
