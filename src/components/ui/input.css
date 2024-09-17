@@ -1,0 +1,19 @@
+.ui_input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s;
+  &:focus {
+    border-color: black;
+  }
+  &:hover {
+    border-color: #333;
+  }
+}
+.ui_input::placeholder {
+  color: #ccc;
+  font-style: oblique;
+  text-transform: capitalize;
+}

@@ -1,0 +1,7 @@
+.ui_section_title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+  text-transform: capitalize;
+  padding: 1rem 0;
+}

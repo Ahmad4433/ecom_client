@@ -1,0 +1,61 @@
+.show_files_main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.select_file_container {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  outline: 1px solid #ccc;
+  outline-offset: 2px;
+  position: relative;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.feature_star {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  background-color: white;
+  font-size: 1rem;
+  left: 0.2rem;
+  top: 0.2rem;
+  color: black;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.iselected_file_overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.306);
+}
+
+.select_file_delete {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: none;
+  font-size: 1.6rem;
+  background-color: white;
+  color: red;
+  border-radius: 4px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.select_file_container:hover .select_file_delete {
+  display: block;
+}
+
+.select_file_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

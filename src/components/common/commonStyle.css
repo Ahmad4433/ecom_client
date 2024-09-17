@@ -1,0 +1,58 @@
+.common_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.common_yellow {
+  color: orangered;
+  font-size: 14px;
+  cursor: pointer;
+}
+.common_yellow svg {
+  font-size: 1.1rem;
+}
+.common_yellow:hover {
+  color: rgb(186, 60, 15);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+
+.color_primary{
+  color: seagreen;
+}
+.semibold{
+  font-weight: 600;
+}
+
+.truncate{
+  max-width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+ 
+}
+
+.icon{
+  background-color: #e7e7e7;
+  height: 1.8rem;
+  width: 1.8rem;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.icon:hover{
+  background-color: #ccc;
+}
+.color_secondary{
+  color: rgb(248, 47, 47);
+}
+

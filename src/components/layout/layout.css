@@ -1,0 +1,16 @@
+.admin_layout_main {
+  display: grid;
+  grid-template-columns: 0.7fr 2.3fr;
+}
+
+.admin_outlet {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  width: 100%;
+}
+
+@media (min-width: 1600px) {
+  .admin_layout_main {
+    grid-template-columns: 0.6fr 2.4fr;
+  }
+}

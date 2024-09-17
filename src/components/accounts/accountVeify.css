@@ -1,0 +1,17 @@
+.account_verify_main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.27);
+  padding: 1rem;
+}
+
+.account_verify_otp_resend {
+  font-size: 14px;
+  text-decoration: none;
+  color: seagreen;
+}

@@ -1,0 +1,8 @@
+.ui_label {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  text-transform: capitalize;
+  padding: 0.4rem 0;
+  display: block;
+}

@@ -1,0 +1,27 @@
+.ui_outline_button {
+  padding: 0.2rem;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  border: 1px solid gray;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0.4px;
+  transition: all 0.1s;
+  cursor: pointer;
+  color: gray;
+}
+.ui_outline_button:hover {
+  border-color: black;
+  color: black;
+}
+.ui_outline_button:active {
+  background-color: black;
+  color: white;
+  border-color: white;
+}

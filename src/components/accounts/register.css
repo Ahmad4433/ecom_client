@@ -1,0 +1,51 @@
+.register_main {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.27);
+}
+
+.register_form_options {
+  padding: 1rem 0;
+  font-size: 14px;
+  text-align: center;
+
+}
+.register_form_options a{
+  text-decoration: none;
+  color: seagreen;
+}
+
+.register_wellcome {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.register_company {
+  font-family: "Playwrite CU", cursive;
+  font-size: 16px;
+  font-weight: 500;
+  color: seagreen;
+}
+
+.register_form_item {
+  position: relative;
+}
+
+.forget_password {
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  bottom: -1.2rem;
+  color: red;
+  font-style: italic;
+  text-decoration: none;
+}

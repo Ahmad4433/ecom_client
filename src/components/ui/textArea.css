@@ -1,0 +1,22 @@
+.ui_textarea {
+  resize: none;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.8rem;
+  min-width: 100%;
+
+  transition: all 0.2s;
+}
+.ui_textarea:hover {
+  border-color: #333;
+}
+.ui_textarea:focus {
+  border-color: black;
+}
+.ui_textarea::placeholder {
+  color: #ccc;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,21 @@
+.ui_button {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.4px;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  transition: all 0.2s;
+}
+
+.ui_button:hover {
+  background-color: #333;
+}
+.ui_button:active {
+  background-color: black;
+}
