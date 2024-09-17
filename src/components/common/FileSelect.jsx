@@ -83,6 +83,7 @@ const FileSelect = ({
           onChange={fileSelectChange}
           ref={fileRef}
           name='email'
+   
         />
       </div>
       <div className="file_preview_container">
