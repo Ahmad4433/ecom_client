@@ -50,7 +50,7 @@ const FileSelect = ({
         const result = await dispatch(
           httpAction(apiActions().uploadImages(file))
         );
-        
+
         // Update preview with the actual image URL after upload
         if (result?.status) {
           setFiles((prevPreview) => {
@@ -82,8 +82,7 @@ const FileSelect = ({
           style={{ display: "none" }}
           onChange={fileSelectChange}
           ref={fileRef}
-      
-          
+          name='email'
         />
       </div>
       <div className="file_preview_container">
