@@ -82,7 +82,7 @@ const FileSelect = ({
           style={{ display: "none" }}
           onChange={fileSelectChange}
           ref={fileRef}
-          name='email'
+          name='name'
    
         />
       </div>
